@@ -7,11 +7,11 @@ using System.Windows;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("%YourName%")]
+[assembly: AssemblyTitle("Launcher")]
 [assembly: AssemblyDescription("Программа запуска World of Wacraft")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jumper's Lab")]
-[assembly: AssemblyProduct("%YaourName% Launcher")]
+[assembly: AssemblyProduct("Darth Launcher")]
 [assembly: AssemblyCopyright("Copyright © Jumper 2014")]
 [assembly: AssemblyTrademark("Jumper's World of Warcraft Launchers")]
 [assembly: AssemblyCulture("")]

@@ -242,7 +242,11 @@ namespace Launcher
                 //    _pListDel = Properties.Settings.Default.PatchToDelete;
                 default:
                     //TODO: CHANGE SERVER NAME AND CLIENT VERSION
+<<<<<<< HEAD
+                    var result = MessageBox.Show("Для игры на сервере Binarnia требуется клиент версии 3.3.5.12340! Поместите программу в корректную папку с игрой или укажите путь к папке!\n\nУказать путь сейчас?", "Ошибка версии клиента", MessageBoxButton.YesNo, MessageBoxImage.Question);
+=======
                     var result = MessageBox.Show("Для игры на сервере Binarnia WOTLK требуется клиент версии 3.3.5.12340! Поместите программу в корректную папку с игрой или укажите путь к папке!\n\nУказать путь сейчас?", "Ошибка версии клиента", MessageBoxButton.YesNo, MessageBoxImage.Question);
+>>>>>>> 4db7b0a (Add link to WOTLK Binarnia)
                     TryToFindFolder(result);
                     break;
             }
@@ -851,17 +855,29 @@ namespace Launcher
                 
         private void link_main_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
+            Process.Start("https://darth.wowka.su/index.php?/topic/10-wrath-of-the-lich-king-335/");
+=======
             Process.Start("http://games-on.su/lich-king/");
+>>>>>>> 4db7b0a (Add link to WOTLK Binarnia)
         }
 
         private void link_cabinet_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
+            Process.Start("http://darth.wowka.su/lk/");
+=======
             Process.Start("https://darth.wowka.su/lk/");
+>>>>>>> 4db7b0a (Add link to WOTLK Binarnia)
         }
 
         private void link_registration_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
+            Process.Start("http://darth.wowka.su/lk/reg.php");
+=======
             Process.Start("https://darth.wowka.su/lk/reg.php");
+>>>>>>> 4db7b0a (Add link to WOTLK Binarnia)
         }
 
         private void link_social_Click(object sender, RoutedEventArgs e)
