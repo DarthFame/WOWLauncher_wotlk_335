@@ -851,22 +851,22 @@ namespace Launcher
                 
         private void link_main_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("http://your-link.domain");
+            Process.Start("https://darth.wowka.su/index.php?/topic/10-wrath-of-the-lich-king-335/");
         }
 
         private void link_cabinet_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("http://your-link.domain");
+            Process.Start("http://darth.wowka.su/lk/");
         }
 
         private void link_registration_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("http://your-link.domain");
+            Process.Start("http://darth.wowka.su/lk/reg.php");
         }
 
         private void link_social_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("http://your-link.domain");
+            Process.Start("https://vk.com");
         }
     }
 }
