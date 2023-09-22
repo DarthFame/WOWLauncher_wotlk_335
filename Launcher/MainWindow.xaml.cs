@@ -242,7 +242,7 @@ namespace Launcher
                 //    _pListDel = Properties.Settings.Default.PatchToDelete;
                 default:
                     //TODO: CHANGE SERVER NAME AND CLIENT VERSION
-                    var result = MessageBox.Show("Для игры на сервере %SERVER-NAME% требуется клиент версии 3.3.5.12340! Поместите программу в корректную папку с игрой или укажите путь к папке!\n\nУказать путь сейчас?", "Ошибка версии клиента", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                    var result = MessageBox.Show("Для игры на сервере Binarnia требуется клиент версии 3.3.5.12340! Поместите программу в корректную папку с игрой или укажите путь к папке!\n\nУказать путь сейчас?", "Ошибка версии клиента", MessageBoxButton.YesNo, MessageBoxImage.Question);
                     TryToFindFolder(result);
                     break;
             }
